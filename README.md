@@ -1,6 +1,7 @@
 # utilities-ticket-validation-dashboard
 
 Overview
+
 This project was built based on a real-world workflow where operational ticket data was used for reporting and revenue tracking.
 
 The original process relied on manual corrections and was prone to:
@@ -11,6 +12,7 @@ fragile Excel formulas
 lack of validation controls
 
 Problem
+
 Data inconsistencies and manual processing created:
 
 unreliable reporting
@@ -18,6 +20,7 @@ time-consuming cleanup
 potential revenue leakage
 
 Solution
+
 I designed a structured Excel-based validation system with:
 
 Controlled Input Layer
@@ -27,6 +30,7 @@ Revenue Risk Tracking
 Executive Dashboard
 
 Example Insight
+
 Even Excel’s Copilot flagged inconsistent entries:
 
 “MIKE vs mike”
@@ -34,6 +38,7 @@ Even Excel’s Copilot flagged inconsistent entries:
 The system handles this automatically using standardization logic, preventing reporting errors.
 
 Key Features
+
 Standardizes names using UPPER(TRIM())
 Flags:
 missing fields
@@ -43,12 +48,14 @@ Calculates estimated revenue risk
 Separates input, processing, and reporting layers
 
 Impact
+
 Reduced manual intervention
 Improved data reliability
 Increased visibility into data quality issues
 Created a scalable validation framework
 
 Skills Demonstrated
+
 Data Validation & Quality Control
 Excel Modeling
 Process Improvement
